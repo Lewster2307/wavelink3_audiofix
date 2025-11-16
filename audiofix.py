@@ -5,7 +5,7 @@ import sys
 import threading
 
 PROCESS_NAME = "audiodg.exe"
-THRESHOLD_MB = 400
+THRESHOLD_MB = 350
 CHECK_INTERVAL = 1  # seconds
 
 def get_process():

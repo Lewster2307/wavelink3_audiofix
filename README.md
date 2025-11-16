@@ -5,7 +5,7 @@ AudioFix is a utility designed to monitor and manage the memory usage of the `au
 ## Features
 
 - **Memory Monitoring**: Continuously monitors the memory usage of `audiodg.exe`.
-- **Threshold-Based Restart**: Automatically restarts the process if its memory usage exceeds 400 MB (default threshold).
+- **Threshold-Based Restart**: Automatically restarts the process if its memory usage exceeds 350 MB (default threshold).
 - **System Tray Integration**: Displays a tray icon (if `pystray` and `Pillow` are installed) to indicate the process status:
   - **Gray**: `audiodg.exe` is not running.
   - **Green**: `audiodg.exe` is running and within the memory threshold.
